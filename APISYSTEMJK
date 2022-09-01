@@ -1,0 +1,9 @@
+getgenv().hosts = {
+    "kevinform203", -- main host, they can add ppl to the stand
+}
+getgenv().users = {
+    "UserName1", -- default users, they can use the stand but they can't add ppl to the stand with the add! command
+}
+-- Usage: command! [displayname] (displayname is not needed for save, and all features, and you don't need to fully type it out)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/Untitled_Hood_Stand.lua'))()
