@@ -7,3 +7,5 @@ getgenv().users = {
 -- Usage: command! [displayname] (displayname is not needed for save, and all features, and you don't need to fully type it out)
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/zenx/main/scripts/Untitled_Hood_Stand.lua'))()
+
+print("WORKING ADMIN ACCESS BYPASSED")
