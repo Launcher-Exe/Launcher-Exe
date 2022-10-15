@@ -3,7 +3,7 @@
 	This property is protected.
 	You are not allowed to claim this as your own.
 	Removal of initial credits to the authors is prohibited.
-                             (SA)
+                           |  Owned By (SA)  |
 ]]
 
 if setfflag then
@@ -108,7 +108,7 @@ local success, error_message = pcall(function()
 							}
 						},
 						["footer"] = {
-							["text"] = "\nIf you think this is a mistake, contact snnwer#1349 or .gg#1780"
+							["text"] = "\nIf you think this is a mistake, contact Ave X3Florencia64stlocos#0376"
 						},
 						["author"] = {
 							["name"] = "Auto Report"
@@ -211,7 +211,7 @@ end)();
 pcall(function()
     autoreport.library:MakeNotification({
 	    Name = "Owned By (SA)",
-	    Content = "Script Made By (SA) DEV TEAM",
+	    Content = "(SA) Dev Team Auto Report",
 	    Time = 8
     });
 end)
