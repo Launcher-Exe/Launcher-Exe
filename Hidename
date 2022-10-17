@@ -1426,7 +1426,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
 
     GameNameObj.InputBegan:Connect(function(Input)
         if Input.UserInputType == Enum.UserInputType.MouseButton1 then
-            Library:CreatePrompt('Text', 'Game Name', GameName, 'Close')
+            Library:CreatePrompt('Text', 'Owned by (SA) Dev Team', GameName, 'Close')
         end
     end)
 
