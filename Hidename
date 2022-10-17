@@ -1091,7 +1091,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
     local ImprovePerformance = ImprovePerformance or false
     local HasCustom = false
     local HubName = HubName or 'UI Name'
-    local GameName = GameName or 'Game Name'
+    local GameName = GameName or 'Owned by (SA)'
     local Theme = Theme
     if not Theme then
         Theme = Themes.Default
@@ -1420,7 +1420,7 @@ function Library:CreateWindow(HubName, GameName, IntroText, IntroIcon, ImprovePe
 
     HubNameObj.InputBegan:Connect(function(Input)
         if Input.UserInputType == Enum.UserInputType.MouseButton1 then
-            Library:CreatePrompt('Text', 'Hub Name', HubName, 'Close')
+            Library:CreatePrompt('Text', '(SA)', HubName, 'Close')
         end
     end)
 
